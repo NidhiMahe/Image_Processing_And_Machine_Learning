@@ -1,0 +1,15 @@
+﻿pip install opencv-python
+pip install opencv-python-headless
+pip install scikit-image
+import cv2
+from skimage import data, io, filters
+from skimage import io
+import numpy as np
+import matplotlib.pyplot as plt
+pip install face_recognition
+import face_recognition
+pip install facenet_pytorch
+import torch
+from facenet_pytorch import InceptionResnetV1
+from PIL import Image
+
