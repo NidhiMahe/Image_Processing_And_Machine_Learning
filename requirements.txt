@@ -11,4 +11,5 @@ pip install facenet_pytorch
 import torch
 from facenet_pytorch import InceptionResnetV1
 from PIL import Image
-
+pip install deepface  
+from deepface import DeepFace
