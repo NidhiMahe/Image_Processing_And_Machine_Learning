@@ -1,10 +1,10 @@
-# 🧠 Computer Vision Projects Portfolio
+#  Computer Vision Projects Portfolio
 
 A collection of Jupyter Notebook projects demonstrating core to advanced computer vision techniques using libraries like OpenCV, scikit-image, DeepFace, and FaceNet.
 
 ---
 
-## 🧾 Overview
+##  Overview
 
 Image processing plays a vital role in enhancing visual data, enabling feature extraction, and supporting a wide range of transformations. Basic operations—such as color conversion, shape detection, and drawing—can be efficiently performed using libraries like **scikit-image**.
 
