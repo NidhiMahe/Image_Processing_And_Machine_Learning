@@ -1,15 +1,42 @@
-﻿pip install opencv-python
+# Install OpenCV (main and headless version for environments without GUI)
+pip install opencv-python
 pip install opencv-python-headless
-import cv2
+
+# Install scikit-image and NumPy for image processing
 pip install scikit-image
-from skimage import data, io, filters
+pip install numpy
+
+# Install matplotlib for visualization
+pip install matplotlib
+
+# Install face_recognition library for facial detection and encoding
+pip install face_recognition
+
+# Install facenet-pytorch for deep learning-based face recognition
+pip install facenet-pytorch
+pip install torch
+pip install Pillow
+
+# Install DeepFace for high-level face analysis
+pip install deepface
+
+# OpenCV
+import cv2
+
+# scikit-image
+from skimage import io, filters, draw
+
+# NumPy and Matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
-pip install face_recognition
+
+# face_recognition
 import face_recognition
-pip install facenet_pytorch
+
+# facenet-pytorch
 import torch
 from facenet_pytorch import InceptionResnetV1
 from PIL import Image
-pip install deepface  
+
+# DeepFace
 from deepface import DeepFace
